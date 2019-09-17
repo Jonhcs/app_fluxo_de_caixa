@@ -1,0 +1,20 @@
+<ion-view view-title="Dashboard">
+  <ion-content class="padding">
+    <h2>Bem vindo ao app Fluxo de caixa</h2>
+    <p>
+      Digite o usuário e senha para entrar 
+    </p>
+    
+    <form>
+        Email:<br>
+        <input type="email" ng-model="login.email" name="email" placeholder="email"><br>
+        <br>
+        Password:<br>
+        <input type="password" ng-model="login.password" name="password" placeholder="password">
+        <br><br>
+        <div>{{erro}}</div>
+        <button ng-click="logar()">Logar no Sistema</button>
+        
+      </form>
+  </ion-content>
+</ion-view>

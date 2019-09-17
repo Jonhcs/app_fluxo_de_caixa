@@ -1,0 +1,17 @@
+/* Empty. Add your own CSS if you like */
+
+input{
+    border: 2px solid #ccc!important;
+    border-radius: 6px;
+    width: 100%;
+    padding-left: 10px!important;
+}
+
+button{
+    background-color: #cccc;
+    border-radius: 6px;
+    padding: 10px;
+    min-width: 100%;
+}
+
+
